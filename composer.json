@@ -1,0 +1,54 @@
+{
+  "name": "ivan-chkv/yii2-jstimezonedetect",
+  "description": "Yii 2 jsTimeZoneDetect Asset",
+  "keywords": [
+    "yii2",
+    "jstimezonedetect",
+    "jstzdetect",
+    "jstz",
+    "time",
+    "timezone",
+    "tz",
+    "date"
+  ],
+  "homepage": "https://pellepim.bitbucket.io/jstz/",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ivan Chistyakov",
+      "email": "ivan.chkv@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": ">=2.0.4",
+    "pellepim/jstimezonedetect": "1.0.*"
+  },
+  "require-dev": {
+    "ivan-chkv/yii2-phpunit": "2.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "yii\\jstimezonedetect\\": ""
+    }
+  },
+  "extra": {
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    }
+  },
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "pellepim/jstimezonedetect",
+        "version": "1.0.6",
+        "dist": {
+          "url": "https://bitbucket.org/pellepim/jstimezonedetect/get/1.0.6.zip",
+          "type": "zip"
+        }
+      }
+    }
+  ]
+}
